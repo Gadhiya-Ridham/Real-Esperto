@@ -37,15 +37,30 @@ To get started with Real-Esperto, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd real-esperto
+   cd real-estate
 
-4. Install dependencies:
+3. Install dependencies:
    ```bash
    npm install
 
-6. Start the application:
+4. Start the application:
    ```bash
    npm start
+
+To get started Server , follow these steps:
+
+1. Navigate to the project directory:
+   ```bash
+   cd Server
+   
+2. Install dependencies:
+    ```bash
+   npm install
+
+3. Start the Server:
+   ```bash
+   npm start
+
 
 ## Usage
 After starting the application, visit http://localhost:3000 in your browser to access Real-Esperto. Follow the on-screen instructions to create listings, manage properties, and interact with other users.
