@@ -36,12 +36,15 @@ To get started with Real-Esperto, follow these steps:
    git clone https://github.com/username/real-esperto.git
 
 2. Navigate to the project directory:
+   ```bash
    cd real-esperto
 
-3. Install dependencies:
+4. Install dependencies:
+   ```bash
    npm install
 
-4. Start the application:
+6. Start the application:
+   ```bash
    npm start
 
 ## Usage
