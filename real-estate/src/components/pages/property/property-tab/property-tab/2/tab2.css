@@ -1,0 +1,47 @@
+.property-box-2 {
+  width: 813px;
+  height: auto;
+  margin-top: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--border-line);
+}
+
+.prt-box-2-1 {
+  width: 736px;
+  height: 32px;
+  font-weight: 500;
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: 32px;
+  background: transparent;
+}
+
+
+
+.prt-line-2 {
+  width: 56px;
+  border: 1px solid var(--border-line);
+  margin-top: 32px;
+  margin-right: 692px;
+}
+
+.prt-box-2-2 {
+  width: 736px;
+  height: auto;
+  margin-bottom: 33px;
+  margin-top: 32px;
+  display: flex;
+}
+
+.prt-box-2-2 p{
+  font-size: 18px;
+  margin-right: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  
+}

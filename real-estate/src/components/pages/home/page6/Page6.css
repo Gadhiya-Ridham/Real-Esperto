@@ -1,0 +1,161 @@
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --light-color: #9ca3af;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --light-color: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container-6 {
+  width: 1263px;
+  height: 775px;
+  margin-top: 112px;
+  margin-left: 128px;
+  display: flex;
+
+  background: transparent;
+}
+
+.images-6 {
+  width: 757px;
+  height: 663px;
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.img-6 {
+  background: transparent;
+  width: 100%;
+}
+
+.description-6 {
+  width: 505px;
+  height: 628px;
+  margin-top: 73px;
+  background: transparent;
+  padding-left: 64px;
+}
+
+.description-6 span {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+
+.description-6 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: start;
+}
+
+.box-6 {
+  width: 441px;
+  height: 480px;
+  margin-top: 64px;
+  background: transparent;
+}
+
+.box-6-1 {
+  width: 441px;
+  height: 133px;
+  background: transparent;
+}
+
+.box-6-2 {
+  width: 441px;
+  height: 133px;
+  margin-top: 40px;
+  background: transparent;
+}
+
+.box-6-3 {
+  width: 441px;
+  height: 133px;
+  margin-top: 40px;
+  background: transparent;
+}
+
+.bg-1{
+  width: 88px;
+  height: 24px;
+}
+
+.bg-2{
+  width: 74px;
+  height: 24px;
+}
+
+.bg-3{
+  width: 61px;
+  height: 24px;
+}
+
+.badge-6 p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  border-radius: 9999px;
+}
+
+.bg-1 p {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 4px 10px;
+}
+
+.bg-2 p {
+  background: #dcfce7;
+  color: #166534;
+  padding: 4px 10px;
+}
+
+.bg-3 p {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 4px 10px;
+}
+
+.heading-6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  margin: 16px 0;
+}
+
+.sub-heading-6 {
+  font-size: 16px;
+  color: var(--light-color);
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+}

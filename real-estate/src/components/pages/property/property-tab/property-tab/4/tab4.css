@@ -1,0 +1,147 @@
+.property-box-4 {
+  width: 813px;
+  height: auto;
+  padding-bottom: 33px;
+  margin-top: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--border-line);
+}
+
+.prt-line-4-1 {
+  width: 56px;
+  margin-top: 32px;
+  margin-right: 692px;
+  border: 1px solid var(--border-line);
+}
+
+.prt-line-4-2 {
+  width: 56px;
+  margin-top: 32px;
+  margin-right: 692px;
+  border: 1px solid var(--text-color);
+}
+
+.prt-box-4-1 {
+  width: 736px;
+  height: 32px;
+  margin-top: 33px;
+}
+
+.prt-box-4-1 h2{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.prt-box-4-2 {
+  width: 736px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.prt-host-img-4 {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 9999px;
+}
+
+.prt_host_img-4 {
+  width: 40px;
+}
+
+.prt-name-4 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.verified-4 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  margin-left: 28px;
+  background: transparent;
+}
+
+.icon-verfies-4-1 {
+  position: absolute;
+  background: transparent;
+}
+
+.icon-verfies-4 {
+  position: absolute;
+  fill: #14b8a6;
+  background: transparent;
+  border-radius: 9999px;
+}
+
+.prt-name-4 span {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  line-height: 28px;
+}
+
+.prt-box-4-3 {
+  width: 736px;
+  /* height: 48px; */
+  margin-top: 32px;
+}
+
+.prt-box-4-3 p{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: start;
+}
+
+.prt-box-4-4 {
+  width: 736px;
+  height: 92px;
+  margin-top: 32px;
+}
+
+.join-4, .res-rate-4, .res-time-4{
+  width: 736px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.join-4 p{
+  font-size: 16px;
+  color: var(--light-color);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.res-rate-4 p{
+  font-size: 16px;
+  color: var(--light-color);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.res-time-4 p{
+  font-size: 16px;
+  color: var(--light-color);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.icon-4{
+  font-size: 24px;
+  margin-right: 12px;
+  fill: var(--light-color);
+}

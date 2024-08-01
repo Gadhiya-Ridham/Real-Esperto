@@ -1,0 +1,414 @@
+.add-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.add-count {
+  width: 736px;
+  height: 40px;
+  margin-top: 80px;
+}
+
+.add-count h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.add-count h1 span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: var(--light-color);
+}
+
+.add-main-box {
+  width: 736px;
+  height: auto;
+  margin-top: 44px;
+  padding: 33px;
+  border-radius: 16px;
+  border: 1px solid var(--border-line);
+}
+
+.add-btn-box {
+  width: 736px;
+  height: 49px;
+  margin-top: 44px;
+  /* display: flex; */
+}
+
+.add-btn-1 {
+  width: auto;
+  height: auto;
+  border: 1px solid var(--border-line);
+  border-radius: 9999px;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  float: right;
+}
+
+.add-btn-2 {
+  width: auto;
+  height: auto;
+  border-radius: 9999px;
+  padding: 12px 24px;
+  background: #4f46e5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  float: right;
+}
+
+.add-title {
+  width: 670px;
+  height: 32px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.add-line {
+  width: 56px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: 1px solid var(--border-line);
+}
+
+.add-box-1 {
+  width: 670px;
+  height: auto;
+}
+
+.add-sub-title {
+  width: 670px;
+  height: auto;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+  color: var(--light-color);
+}
+
+.add-label-1 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.add-choose {
+  margin-bottom: 32px;
+}
+
+.add-input {
+  width: 670px;
+  height: 44px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  border: 1px solid var(--border-line);
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 32px;
+  /* text-transform: capitalize; */
+}
+
+.add-small-text {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--light-color);
+  margin-top: 6px;
+}
+
+.sp-add {
+  margin-bottom: 32px;
+}
+
+.add-short-input {
+  width: 210px;
+  height: 44px;
+}
+
+.add-address-1 {
+  display: flex;
+}
+
+.add-address-1-box {
+  margin-right: 20px;
+}
+
+.add-map-box {
+  width: 670px;
+  height: 466px;
+  border: 1px solid;
+}
+
+.add-map-box p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 3px;
+}
+
+.add-map-box span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light-color);
+  margin-top: 6px;
+}
+
+.add-box-3-sp {
+  width: 670px;
+  height: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.add-box-3-sp h4 {
+  width: 80px;
+  height: 24px;
+}
+
+.add-box-3-sp:last-child {
+  margin-bottom: 0;
+}
+
+.add-count-box {
+  width: 112px;
+  height: 32px;
+  float: right;
+  margin-left: 478px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-tick-box {
+  width: 112px;
+  height: 32px;
+  float: right;
+  margin-left: 478px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  background-color: var(--light-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:after {
+  font-weight: 900;
+  content: "\2713";
+  font-size: 18px;
+  color: white;
+  display: none;
+}
+input[type="checkbox"]:checked {
+  background-color: #4f46e5;
+}
+
+input[type="checkbox"]:checked::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-add-minus-btn-3 {
+  width: 32px;
+  height: 32px;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--border-line);
+}
+
+.add-add-minus-btn-3 span {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  border-radius: 9999px;
+  justify-content: center;
+  background: transparent;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+.disabled {
+  cursor: default;
+}
+
+.disabled span {
+  color: var(--light-color);
+}
+
+.add-box-count-hover {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 9999px;
+  background: transparent;
+}
+
+.add-count-number-3 {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
+  display: flex;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-text-4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.add-amenities-box {
+  width: 670px;
+  height: auto;
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: 210px 210px 210px;
+  gap: 20px;
+}
+
+.add-check-box-4 {
+  width: 210px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.add-amenities-name {
+  width: 172px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 14px;
+  background: transparent;
+}
+
+.add-discription {
+  width: 670px;
+  height: 150px;
+  padding: 8px 12px;
+  border: 1px solid var(--border-line);
+  border-radius: 16px;
+  resize: vertical;
+}
+
+.add-image-box {
+  width: 670px;
+  height: auto;
+
+}
+
+.add-image-box h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.add-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed var(--border-line);
+  height: 140px;
+  width: 670px;
+  margin-top: 22px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 22px;
+}
+
+.add-img{
+  width: 140px;
+  height: 140px;
+}
+
+.add-more-btn{
+  padding: 12px 16px;
+  color: white;
+  background: #4f46e5;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.delete-btn{
+  padding: 12px 16px;
+  color: white;
+  background: #4f46e5;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.add-price-box{
+  width: 670px;
+  height: auto;
+  margin-top: 32px;
+}
+
+.add-text-8{
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.add-card-box-8{
+  margin-top: 33px;
+}
+
+.add-btn-8-box{
+  width: 670px;
+  height: 49px;
+  margin-top: 33px;
+}
+
+.add-btn-sp{
+  float: left;
+}
+
+.add-icon-8{
+  font-size: 16px;
+  background: transparent;
+  margin-right: 12px;
+}

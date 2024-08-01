@@ -1,0 +1,405 @@
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --light-color: #9ca3af;
+  --sp-bg-color: #0c1222;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --light-color: #6b7280;
+  --sp-bg-color: #f1f5f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.conatiner-5 {
+  width: 100%;
+  height: auto;
+  margin-top: 112px;
+  border-radius: 40px;
+  padding-bottom: 33px;
+  display: flex;
+  justify-content: center;
+  background: var(--sp-bg-color);
+}
+
+.content-5 {
+  width: 1263px;
+  height: auto;
+  margin-top: 64px;
+  background: transparent;
+}
+
+.heading-5 {
+  width: 1263px;
+  height: 84px;
+  background: transparent;
+}
+
+.heading-5 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 16px;
+  background: transparent;
+}
+
+.heading-5 span {
+  font-size: 18px;
+  line-height: 28px;
+  background: transparent;
+  color: var(--light-color);
+}
+
+.option-5 {
+  width: 1263px;
+  height: 45px;
+  margin-top: 48px;
+  display: flex;
+  background: transparent;
+}
+
+.otp-5 {
+  width: 1119px;
+  height: 40px;
+  margin: 3px 0;
+  background: transparent;
+}
+
+.viewAll-5 {
+  width: 143px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 9999px;
+  border: 1px solid var(--border-line);
+}
+
+.viewAll-5 p {
+  font-size: 16px;
+  font-family: 500;
+  line-height: 16px;
+  font-weight: 500;
+  background: transparent;
+}
+
+.viewAll-5 p span {
+  font-size: 20px;
+  font-weight: 300;
+  background: transparent;
+}
+
+.card-box-5 {
+  width: 1263px;
+  height: auto;
+  margin-top: 35px;
+  background: transparent;
+  display: grid;
+  grid-template-columns: repeat(2, 615px);
+  gap: 33px;
+}
+
+.card-5 {
+  width: 615px;
+  height: 257px;
+  margin-top: 0;
+  border-radius: 24px;
+  display: flex;
+}
+
+.img-card-5 {
+  width: 232px;
+  height: 232px;
+  margin: 12px;
+  overflow: hidden;
+  border-radius: 24px;
+  z-index: 1;
+}
+
+.img-scroll-5 {
+  width: 232px;
+  height: 232px;
+  overflow: hidden;
+}
+
+.img-5 {
+  width: 232px;
+  height: 232px;
+  z-index: 2;
+}
+
+
+.icon-5 {
+  fill: var(--text-color);
+  font-size: 18px;
+  background: transparent;
+}
+
+.desc-card-5 {
+  width: 358px;
+  height: 256px;
+  border-radius: 24px;
+}
+
+.like-btn-5 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-top: 12px;
+  border-radius: 9999px;
+  background: var(--hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 314px;
+  border: 1px solid var(--border-line);
+}
+
+.icon-like-5 {
+  fill: var(--light-color);
+  background: transparent;
+}
+
+.like {
+  fill: #ef4444;
+}
+
+.bagde-5 {
+  width: auto;
+  height: 24px;
+  margin-top: 41px;
+  margin-left: 12px;
+  display: flex;
+}
+
+.bg-5 {
+  border-radius: 9999px;
+  height: 24px;
+  margin-right: 12px;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bg-5 {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 14px;
+  margin-right: 4px;
+  background: transparent;
+}
+
+.bg-5 span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  background: transparent;
+}
+
+.bg-clr-1 {
+  fill: #1e40af;
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.bg-clr-2 {
+  fill: #854d0e;
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.title-5 {
+  padding-right: 12px;
+}
+
+.title-5 h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-top: 12px;
+  line-height: 1.75rem;
+}
+
+.facility-5 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.fac-5 {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.icon-fac-5 {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.fac-5 span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 12px;
+  color: var(--light-color);
+}
+
+.line-5 {
+  width: 100px;
+  height: 1px;
+  margin-top: 12px;
+  margin-left: 12px;
+  border: 1px solid var(--border-line);
+}
+
+.ls-box-5 {
+  width: 345px;
+  height: 38px;
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+  margin-left: 12px;
+}
+
+.review-5 {
+  width: 90px;
+  height: 24px;
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.icon-rev-5 {
+  font-size: 15px;
+  fill: #ffa80a;
+  margin-right: 4px;
+}
+
+.review-5 span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--light-color);
+}
+
+.price-5 {
+  width: 90px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 125px;
+  border: 1px solid #14b8a6;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #14b8a6;
+}
+
+.discount-badge-5 {
+  position: absolute;
+  width: 89px;
+  height: 20px;
+  background: #f97316;
+  margin: 8px;
+  border-radius: 9999px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fef2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  z-index: 3;
+}
+
+.btn-hover-5-1,
+.btn-hover-5-2,
+.btn-hover-5-3,
+.btn-hover-5-4,
+.btn-hover-5-5,
+.btn-hover-5-6,
+.btn-hover-5-7,
+.btn-hover-5-8 {
+  width: 232px;
+  height: 232px;
+  background: transparent;
+  border-radius: 24px;
+  position: absolute;
+  z-index: 4;
+}
+
+.box-btn-5 {
+  width: 1263px;
+  height: 48px;
+  margin-top: 64px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-5 {
+  border-radius: 9999px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  display: flex;
+  background: #4f46e5;
+  justify-content: center;
+  align-items: center;
+  width: 197px;
+  height: 48px;
+  color: white;
+  border: 1px solid #4f46e5;
+}
+
+.otp-5 ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.otp-5 ul li {
+  width: 121px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 10px;
+  border-radius: 9999px;
+}
+
+.act-5{
+  background: #115e59;
+  color: #f0fdfa;
+}

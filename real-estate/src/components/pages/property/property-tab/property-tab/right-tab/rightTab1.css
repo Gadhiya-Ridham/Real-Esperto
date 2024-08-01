@@ -1,0 +1,341 @@
+.property-box-right-1 {
+  width: 426px;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border-line);
+  position: sticky;
+  top: 114px;
+  /* flex-direction: column; */
+}
+
+.property-box-right-1 h3 {
+  width: 290px;
+  height: 36;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: start;
+  margin-top: 25px;
+  display: flex;
+  background: transparent;
+  margin-left: 33px;
+}
+
+.property-box-right-1 p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 3px;
+  background: transparent;
+  line-height: 36px;
+  text-align: start;
+}
+
+.p-box-heading-right {
+  display: flex;
+  background: transparent;
+}
+
+.property-icon-star {
+  font-size: 18px;
+  background: transparent;
+  fill: #f97316;
+  margin-top: 35px;
+}
+
+.property-box-right-1 h4 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 4px;
+  text-align: start;
+  margin-top: 33px;
+  background: transparent;
+}
+
+.property-box-right-1 span {
+  margin-left: 4px;
+  color: var(--light-color);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: 20px;
+  background: transparent;
+}
+
+.property-right-inner-box-1 {
+  width: 360px;
+  height: 142px;
+  border-radius: 24px;
+  margin-top: 28px;
+  margin-left: 33px;
+  overflow: hidden;
+  background: transparent;
+  border: 1px solid var(--border-line);
+}
+
+.property-calcultaion-buy {
+  width: 360px;
+  height: 120px;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  margin-left: 33px;
+}
+
+.property-calcultaion-rent {
+  width: 360px;
+  height: 120px;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  margin-left: 33px;
+}
+
+.property-booking {
+  width: 360px;
+  height: 48px;
+  padding: 12px 24px;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  margin-left: 33px;
+  cursor: pointer;
+  background-color: #4f46e5;
+}
+
+.property-booking-back {
+  width: 360px;
+  height: 48px;
+  padding: 12px 24px;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  margin-left: 33px;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--light-color);
+  border: 1px solid var(--border-line);
+}
+
+.prt-rgt-boxs-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prt-rgt-box-1 {
+  width: 180px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid var(--border-line);
+}
+
+.innr-box-1 {
+  width: 180px;
+  height: 25px;
+  border-right: 1px solid var(--border-line);
+  display: flex;
+  align-items: center;
+}
+
+.prt-rgt-icon {
+  font-size: 16px;
+  margin-left: 12px;
+  fill: var(--light-color);
+}
+
+.prt-rgt-box-1 h2 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  margin-left: 12px;
+}
+
+.prt-rgt-box-1 p {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.prt-rgt-boxs-2 {
+  width: 360px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prt-rgt-boxs-2 p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: start;
+  margin-left: 24px;
+}
+
+.prt-rgt-boxs-2 p span {
+  font-size: 16px;
+  line-height: 24px;
+  float: right;
+  margin-right: 24px;
+}
+
+.prt-rgt-box-2 {
+  width: 180px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border-bottom: 1px solid var(--border-line);
+}
+
+.btn-rgt-box-1 {
+  background: transparent;
+  width: 150px;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  border: 1px solid var(--border-line);
+  cursor: pointer;
+}
+
+.btn-rgt-box-1:hover {
+  background: var(--hover);
+}
+
+.btn-rgt-box-2 {
+  background: transparent;
+  width: 150px;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  border: 1px solid var(--border-line);
+  cursor: pointer;
+}
+
+.btn-rgt-box-2:hover {
+  background: var(--hover);
+}
+
+.act-rgt {
+  color: #1e40af;
+  background: #dbeafe;
+}
+
+.act-rgt:hover {
+  color: #1e40af;
+  background: #dbeafe;
+}
+
+.prt-calc-box-1 {
+  width: 330px;
+  height: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.prt-calc-box-1 h5 {
+  background: transparent;
+  width: 330px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: start;
+}
+
+.prt-calc-box-1 h5 p {
+  background: transparent;
+  float: right;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.prt-calc-box-2 {
+  width: 330px;
+  height: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.prt-calc-box-2 h5 {
+  background: transparent;
+  width: 330px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: start;
+}
+
+.prt-calc-box-2 h5 p {
+  background: transparent;
+  float: right;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.prt-calc-line-2 {
+  width: 330px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border-line);
+}
+
+.prt-calc-box-3 {
+  width: 330px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.prt-calc-box-3 h5 {
+  background: transparent;
+  width: 330px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: start;
+}
+
+.prt-calc-box-3 h5 p {
+  background: transparent;
+  float: right;
+  font-size: 16px;
+  line-height: 24px;
+}

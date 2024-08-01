@@ -1,0 +1,33 @@
+# License for Real-Esperto
+
+## Personal License Agreement
+
+This personal license agreement ("Agreement") is between you (the "Licensee") and Ridham Gadhiya (the "Licensor"). By using or accessing the Real-Esperto project ("Project"), you agree to the following terms:
+
+### 1. Grant of License
+Licensor grants Licensee a non-exclusive, non-transferable, and limited license to use the Project for personal and non-commercial purposes. This license allows Licensee to download, view, and modify the Project.
+
+### 2. Restrictions
+- **Commercial Use**: The Project may not be used for commercial purposes without express written permission from the Licensor.
+- **Redistribution**: Licensee may not distribute, sell, or sublicense the Project or its derivative works without written consent from the Licensor.
+- **Modification**: While modifications are allowed for personal use, the Licensee may not claim modified versions as their own or distribute such versions.
+
+### 3. Ownership
+The Project remains the property of the Licensor. This Agreement does not transfer any ownership rights or intellectual property rights to the Licensee.
+
+### 4. No Warranty
+The Project is provided "as-is" without warranties of any kind, either express or implied. Licensor does not warrant that the Project will be error-free or that it will meet Licensee's requirements.
+
+### 5. Termination
+This Agreement will terminate automatically if Licensee fails to comply with any terms of this Agreement. Upon termination, Licensee must cease all use of the Project and destroy all copies in their possession.
+
+### 6. Governing Law
+This Agreement is governed by and construed in accordance with the laws of [Your Jurisdiction]. Any disputes arising from this Agreement will be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
+
+### 7. Contact
+For any questions regarding this Agreement, please contact Ridham Gadhiya at [Your Contact Information].
+
+---
+
+**Note**: This is a personal license agreement template. It is recommended to consult with a legal professional to ensure that the terms meet your specific needs and legal requirements.
+

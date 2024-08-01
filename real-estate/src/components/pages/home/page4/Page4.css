@@ -1,0 +1,182 @@
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --light-color: #9ca3af;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --light-color: #6b7280;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container-4 {
+  width: 1263px;
+  height: 533px;
+  margin-left: 128px;
+}
+
+.heading-box-4{
+  width: 1263px;
+  height: 80px;
+  display: flex;
+  background: transparent;
+}
+
+.heading-4{
+  width: 361px;
+  height: 80px;
+  background: transparent;
+}
+
+.heading-4 h2{
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 40px;
+  background: transparent;
+  margin-bottom: 12px;
+}
+
+.heading-4 span{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--light-color);
+  line-height: 28px;
+  background: transparent;
+}
+
+.nextPrev-4{
+  width: 86px;
+  height: 40px;
+  margin-left: 816px;
+  margin-top: 40px;
+  display: flex;
+  background: transparent;
+
+}
+
+.prev-4 , .next-4{
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-line);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  background: transparent;
+  cursor: pointer ;
+}
+
+.prev-4{
+  margin-right: 3px;
+}
+
+.next-4{
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-icon-4{
+  font-size: 18px;
+  background: transparent;
+}
+
+
+.gallary-4 {
+  width: 1327px;
+  margin-top: 64px;
+  background: transparent;
+}
+
+.card-4 {
+  width: 227px;
+  height: 389px;
+  background: transparent;
+  color: white;
+}
+
+.box-4 {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 100px;
+}
+
+.imgages-4 {
+  width: 227px;
+  height: 317px;
+  overflow: hidden;
+  background: transparent;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-4 {
+  width: auto;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.desc-4 {
+  width: 227px;
+  height: 56px;
+  margin-top: 16px;
+  background: transparent;
+  overflow: hidden;
+}
+
+.title-4 {
+  width: 227px;
+  height: 28px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.title-4 p {
+  font-size: 18px;
+  background: transparent;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+
+.sub-title-4 {
+  width: 227px;
+  height: 20px;
+  background: transparent;
+  margin: 8px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.sub-title-4 span {
+  font-size: 14px;
+  background: transparent;
+  line-height: 20px;
+  text-align: left;
+  color: var(--light-color);
+}
+

@@ -1,0 +1,95 @@
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --light-color: #9ca3af;
+  --img-1: url(../../images/img-spc-dark-1.png);
+  --img-2: url(../../images/img-spc-dark-2.png);
+  --img-3: url(../../images/img-spc-dark-3.png);
+  --img-4: url(../../images/img-spc-dark-4.png);
+  --img-5: url(../../images/img-spc-dark-5.png);
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --light-color: #6b7280;
+  --grayscale: grayscale(100%);
+  --img-1: url(../../images/img-spc-light-1.png);
+  --img-2: url(../../images/img-spc-light-2.png);
+  --img-3: url(../../images/img-spc-light-3.png);
+  --img-4: url(../../images/img-spc-light-4.png);
+  --img-5: url(../../images/img-spc-light-5.png);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container-2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content-2 {
+  width: 1263px;
+  height: 74px;
+  margin: 112px 0;
+  display: flex;
+  background: transparent;
+}
+
+.image-sponcer {
+  width: 201px;
+  height: 74px;
+  overflow: hidden;
+}
+
+.spc-4-1 {
+  margin-right: 64px;
+  background-image: var(--img-1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.spc-4-2 {
+  margin-right: 64px;
+  background-image: var(--img-2);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.spc-4-3 {
+  margin-right: 64px;
+  background-image: var(--img-3);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.spc-4-4 {
+  margin-right: 64px;
+  background-image: var(--img-4);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.spc-4-5 {
+  background-image: var(--img-5);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

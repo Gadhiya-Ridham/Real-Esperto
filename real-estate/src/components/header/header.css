@@ -1,0 +1,522 @@
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: white;
+  --bg-color: #111827;
+  --hover: #1e293b;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.bg-trp {
+  background-color: transparent;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid var(--border-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: transparent;
+  backdrop-filter: blur(40px);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.display-none-header{
+  display: none;
+}
+
+.left {
+  width: 20%;
+  position: absolute;
+  left: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  margin-left: 5%;
+  float: left;
+  background: transparent;
+}
+
+.middle {
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle ul {
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menuItem {
+  width: 90%;
+  height: 100%;
+  border-radius: 16px;
+  margin: 0 0.5%;
+  background: transparent;
+}
+
+.menuLink {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 16px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.menuLink:hover {
+  background-color: var(--hover);
+}
+
+.active {
+  background-color: var(--hover);
+}
+
+.right {
+  width: 29%;
+  height: 50px;
+  position: absolute;
+  right: 1%;
+  overflow: hidden;
+}
+
+.mb-menu {
+  display: none;
+}
+
+.btn-register {
+  width: 130px;
+  height: 50px;
+  margin-right: 1%;
+  float: right;
+  border-radius: 4rem;
+}
+
+.link-register {
+  width: 100%;
+  height: 100%;
+  border-radius: 4rem;
+  background-color: #4f46e5;
+  border: 1px solid #4f46e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.link-register:hover {
+  background-color: #403ba0;
+  border: 1px solid #403ba0;
+}
+
+.search {
+  width: 50px;
+  height: 50px;
+  border-radius: 4rem;
+  float: right;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: width 0.5s;
+  cursor: pointer;
+}
+
+.search-input {
+  display: none;
+}
+
+.icon-search {
+  width: 50px;
+  height: 50px;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.hover:hover {
+  background: var(--hover);
+}
+
+.icon {
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.icon-close {
+  display: none;
+}
+
+.long {
+  width: 280px;
+  border: 1px solid var(--border-line);
+}
+
+.long .icon-search {
+  display: none;
+}
+
+.long .search-input {
+  width: 230px;
+  height: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  border-radius: 4rem;
+  padding: 0 20% 0 5%;
+  font-size: 17px;
+}
+
+.long .icon-close {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 4rem;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.long .icon-close:hover {
+  background-color: var(--hover);
+  border: 1px solid var(--border-line);
+}
+
+.long .icon-close i {
+  font-size: 30px;
+  background-color: transparent;
+}
+
+.mode {
+  width: 50px;
+  height: 50px;
+  border-radius: 4rem;
+  float: right;
+  margin-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.darkMode {
+  width: 50px;
+  height: 50px;
+  border-radius: 4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.darkMode i {
+  font-size: 23px;
+  background-color: transparent;
+}
+
+.lightMode {
+  width: 50px;
+  height: 50px;
+  border-radius: 4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.lightMode i {
+  font-size: 23px;
+  background-color: transparent;
+}
+
+.show {
+  display: flex;
+}
+
+.sideBar {
+  width: 96%;
+  height: auto;
+  border: 1px solid var(--border-line);
+  position: absolute;
+  top: 95px;
+  display: none;
+  margin-left: 2%;
+  position: fixed;
+  transition: width 0.5s;
+}
+
+@media only screen and (max-width: 426px) {
+  .middle {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .right {
+    width: 75%;
+    overflow: hidden;
+  }
+
+  .btn-register {
+    display: none;
+  }
+
+  .search {
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+  }
+
+  .long {
+    width: 220px;
+  }
+
+  .long .icon-close {
+    width: 40px;
+    height: 40px;
+  }
+
+  .long .icon-close:hover {
+    background-color: transparent;
+    border: none;
+  }
+
+  .long .search-input {
+    padding-right: 5%;
+    font-size: 12px;
+  }
+
+  .mb-menu {
+    display: flex;
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .sideBar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sb-menulinks {
+    width: 95%;
+    height: auto;
+    top: 0;
+  }
+
+  .menu-sd {
+    width: 100%;
+    height: 45px;
+    border: 1px solid var(--border-line);
+    margin-top: 2%;
+    list-style: none;
+    border-radius: 4rem;
+    background-color: transparent;
+  }
+
+  .link-sd {
+    display: flex;
+    width: auto;
+    height: 100%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 4rem;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .menu-sd:hover {
+    background: var(--hover);
+  }
+
+  .active {
+    background: var(--hover);
+  }
+
+  .btn-sd {
+    width: 100%;
+    height: 45px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 4rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+  }
+}
+
+.profile-icon {
+  width: 45px;
+  height: 45px;
+  border: 1px solid var(--border-line);
+  margin-right: 50px;
+  float: right;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.profile-pic-1{
+
+  width: 45px;
+  height: 45px;
+}
+
+.profile-box {
+  width: 250px;
+  height: auto;
+  right: 50px;
+  display: none;
+  border: 1px solid var(--border-line);
+  margin-top: 105px;
+  z-index: 99;
+  border-radius: 16px;
+  position: fixed;
+}
+
+.profile-show{
+  display: block;
+}
+
+.sub-profile-box {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info h3 {
+  font-weight: 500;
+  cursor: default;
+}
+
+.profile-icon-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  margin-right: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profile-pic{
+  border-radius: 9999px;
+  width: 40px;
+  height: 40px;
+}
+
+.line-profile-card {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid var(--border-line);
+}
+
+.box-profile-link {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.box-profile-link ul {
+  width: 100%;
+  height: auto;
+}
+
+.box-profile-link ul li {
+  width: 100%;
+  height: 35px;
+  margin: 3px 0;
+  padding-left: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.box-profile-link ul li:hover {
+  background: var(--hover);
+}
+
+.profile-box-icons {
+  background: transparent;
+  float: right;
+  font-size: 8px;
+  fill: var(--light-color);
+}
+
+.profile-box-link {
+  background: transparent;
+  width: 92%;
+}
+
+.profile-box-icon-box {
+  background: transparent;
+  float: right;
+}

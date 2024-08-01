@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --light-color: #9ca3af;
+  --sp-bg-color: #0c1222;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --light-color: #6b7280;
+  --sp-bg-color: #f1f5f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.a-container-4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
+}
+
+.a-content-4{
+     width: 1263px;
+     height: 559px;
+     display: flex;
+     display: flex;
+     align-items: center;
+}
+
+.a-desc-4{
+     width: 505px;
+     height: 440px;
+}
+
+.a-logo-box-4{
+     width: 100px;
+     height: 100px;
+}
+
+.a-logo-4{
+     background: transparent;
+     width: 100px;
+}
+
+.a-title-4{
+     margin-top: 10px;
+     color: #b78d65;
+     letter-spacing: 5px;
+     font-size: 24px;
+     font-weight: 500;
+     text-align: start;
+     font-family: "Teko", sans-serif;
+     
+}
+
+.a-heading-4{
+     margin-top: 20px;
+     font-size: 50px;
+     font-weight: 500;
+     line-height: 40px;
+     text-align: start;
+     letter-spacing: 3px;
+     font-family: "Teko", sans-serif;
+}
+
+
+.a-sub-heading-4{
+     margin-top: 24px;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: start;
+     font-family: "Rubik", sans-serif;
+}
+
+.a-btn-4{
+     width: 197px;
+     height: 48px;
+     margin-top: 44px;
+     padding: 12px 24px;
+     font-size: 17px;
+     font-weight: 500;
+     line-height: 24px;
+     text-align: center;
+     background: #b78d65;
+     cursor: pointer;
+     color: white;
+}
+
+.a-btn-4:hover{
+     background: var(--bg-color);
+     border: 1px solid #b78d65;
+     color: #b78d65;
+}
+
+.a-img-box-4{
+     width: 717px;
+     height: 559px;
+     margin-left: 40px;
+}
+
+.a-img-4{
+     background: transparent;
+     width: 100%;
+}

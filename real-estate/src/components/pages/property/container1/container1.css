@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --icon-fill: black;
+  --light-color: #9ca3af;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --icon-fill: white;
+  --light-color: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.p-erroe-1{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.p-container-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p-card-box-5 {
+  width: 1263px;
+  height: auto;
+  margin-top: 35px;
+  background: transparent;
+  display: grid;
+  cursor: default;
+  grid-template-columns: repeat(2, 615px);
+  grid-template-rows: repeat(auto-fill, minmax(257px, auto));
+  gap: 33px;
+}
+
+.card-5 {
+  border: 1px solid var(--border-line);
+}
+
+.desc-card-5 {
+  background: transparent;
+}
+
+.price-5 {
+  cursor: pointer;
+}
+
+.icon-like-5 {
+  cursor: pointer;
+}
+
+.liked{
+  fill: red;
+}

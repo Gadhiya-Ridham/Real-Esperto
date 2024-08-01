@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --light-color: #9ca3af;
+  --sp-bg-color: #0c1222;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --light-color: #6b7280;
+  --sp-bg-color: #f1f5f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.a-container-3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
+}
+
+.a-content-3 {
+  width: 1263px;
+  height: 756px;
+}
+
+.a-heading-3 h3 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: #b78d65;
+  font-weight: 500;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+}
+
+.a-heading-3 h2 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  line-height: 70px;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+}
+
+.a-box-3 {
+  width: 1263px;
+  height: 478px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.a-card-3-1,
+.a-card-3-2,
+.a-card-3-3 {
+  width: 333px;
+  height: 428px;
+  margin: 0 30px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.a-card-3-1{
+     background-image: url(../images/a-img-person-1.jpg);
+     transition: transform .2s;     
+     overflow: hidden; 
+}
+
+.a-card-3-1:hover{
+     transform: scale(1.1);
+     border: 2px solid var(--border-line);
+}
+
+
+.a-card-3-2{
+     background-image: url(../images/a-img-person-2.jpg);
+     transition: transform .2s;    
+}
+
+.a-card-3-2:hover{
+     transform: scale(1.1);
+     border: 2px solid var(--border-line);
+}
+
+.a-card-3-3{
+     background-image: url(../images/a-img-person-3.jpg);
+     transition: transform .2s;    
+}
+
+.a-card-3-3:hover{
+     transform: scale(1.1);
+     border: 2px solid var(--border-line);
+}
+
+
+.a-card-inner-3-1{
+     width: 333px;
+     height: 428px;
+     background: linear-gradient(180deg, transparent 0, #000);
+     padding-top: 340px;
+     padding-left: 30px;
+}
+
+.a-card-inner-3-1 h4{
+     font-size: 30px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: 500;
+     color: white;
+     font-family: "Teko", sans-serif;
+     background: transparent;
+}
+
+.a-card-inner-3-1 p{
+     font-size: 18px;
+     color: white;
+     text-transform: capitalize;
+     font-weight: 400;
+     line-height: 30px;
+     font-family: "Rubik", sans-serif;
+     background: transparent;
+}
+
+.a-btn-box-3{
+     width: 1263px;
+     height: 48px;
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.a-btn-3{
+     background-color: #b78d65;
+     width: 150px;
+     height: 48px;
+     display: flex;
+     cursor: pointer;
+     font-size: 18px;
+     color: white;
+     font-weight: 500;
+     align-items: center;
+     justify-content: center;
+}
+
+.a-btn-3:hover{
+     background-color: var(--bg-color);
+     border: 1px solid #b78d65;
+     color: #b78d65;
+}

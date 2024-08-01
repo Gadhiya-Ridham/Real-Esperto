@@ -1,0 +1,288 @@
+.db-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.db-box {
+  width: 100%;
+  height: 138px;
+  margin-top: 90px;
+  background: var(--hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.db-lists {
+  width: 1263px;
+  height: 90px;
+  background: transparent;
+}
+
+.db-lists ul {
+  width: 1263px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.db-lists ul li {
+  width: auto;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 56px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.db-lists ul li:hover {
+  border-bottom: 3px solid #4f46e5;
+}
+
+.active-db {
+  border-bottom: 3px solid #4f46e5;
+}
+
+.db-box-1 {
+  width: 1263px;
+  height: 994px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.db-text-1 {
+  width: 1263px;
+  height: 36px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.db-line-1 {
+  width: 56px;
+  border: 1px solid var(--border-line);
+  margin-top: 32px;
+}
+
+.db-boxes-1-1 {
+  display: flex;
+  margin-top: 32px;
+}
+
+.db-box-left-1 {
+  width: 128px;
+  height: 893px;
+}
+
+.db-box-right-1 {
+  width: 768px;
+  padding-left: 64px;
+  height: 893px;
+}
+
+.db-label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 3px;
+}
+
+.db-box-name {
+  display: flex;
+}
+
+.db-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.db-input {
+  width: 704px;
+  height: 44px;
+  padding: 12px 16px;
+  border: 1px solid var(--border-line);
+  border-radius: 16px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+
+.username{
+  text-transform: lowercase;
+}
+
+.text-upper{
+  text-transform: capitalize;
+}
+
+.db-input-name {
+  width: 337px;
+}
+
+.db-input-name:nth-child(2) {
+  margin-right: 30px;
+}
+
+.db-input-textarea {
+  height: 117px;
+  resize: vertical;
+}
+
+.db-btn {
+  width: 704px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4f46e5;
+  color: white;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.db-image {
+  width: 128px;
+  height: 128px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.db-profile-image {
+  width: 128px;
+  height: 128px;
+}
+
+.db-textleft-image {
+  width: 128px;
+  border: 1px solid;
+  height: 30px;
+  margin-top: 22px;
+  cursor: pointer;
+  border-radius: 16px;
+  background: #dbeafe;
+  color: #1e40af;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.db-textleft-image-close{
+  cursor: pointer;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -10px;
+  background: transparent;
+}
+
+.icon-db-close{
+  font-size: 16px;
+  background: transparent;
+  fill: var(--light-color);
+}
+
+
+.db-box-2 {
+  width: 1263px;
+  height: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 33px;
+}
+
+.card-db {
+  width: 1263px;
+  height: auto;
+  margin-top: 35px;
+  background: transparent;
+  display: grid;
+  cursor: default;
+  grid-template-columns: repeat(2, 615px);
+  grid-template-rows: repeat(auto-fill, minmax(257px, auto));
+  gap: 33px;
+}
+
+.db-box-3 {
+  width: 1263px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.db-box-3-1 {
+  width: 576px;
+  height: 350px;
+  margin-top: 32px;
+}
+
+.db-password {
+  width: 578px;
+  height: 44px;
+  margin-top: 8px;
+  margin-bottom: 27px;
+  border: 1px solid var(--border-line);
+  outline: none;
+  padding: 12px 16px;
+  border-radius: 16px;
+}
+
+.db-btn-3{
+  width: 190px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4f46e5;
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.db-btn-box-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.db-box-4{
+  width: 1263px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.db-btn-2{
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  margin-left: 1110px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background: #dbeafe;
+  color: #1e40af;
+  align-items: center;
+  border: 1px solid;
+}

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root,
+:root.dark {
+  --border-line: #374151;
+  --text-color: #e2e8f0;
+  --bg-color: #111827;
+  --hover: #1e293b;
+  --icon-fill: black;
+  --bg-linerar: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5));
+  --light-color: #9ca3af;
+}
+
+:root.light {
+  --border-line: #e5e7eb;
+  --text-color: black;
+  --bg-color: white;
+  --hover: #f1f5f9;
+  --bg-linerar: transparent;
+  --icon-fill: white;
+  --light-color: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.p-container-home{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p-content-home{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(./images/img-prp-1.jpg);
+}
+
+.p-nav-bar{
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  background-color: var(--bg-color);
+}
+
+.p-content-home h1{
+  font-size: 75px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 65px;
+  margin-bottom: 15px;
+  color: white;
+  background: transparent;
+  font-family: "Teko", sans-serif;
+}
+
+.p-heading{
+  width: 100%;
+  height: 590px;
+  flex-direction: column;
+  display: flex;
+  background: var(--bg-linerar);
+  align-items: center;
+  justify-content: center;
+}
+
+.p-link{
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-icon-home{
+  font-size: 30px;
+  fill: white;
+  cursor: pointer;
+  background: transparent;
+}
+
+.p-link a{
+  background: transparent;
+}
+
+.p-link h2{
+  background: transparent;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  font-weight: 200;
+  margin: 0 20px;
+}
+
+.p-link p{
+  color: white;
+  background: transparent;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.p-box-1{
+  height: auto;
+  border: 1px solid;
+}
+
+.p-text-property{
+  background: transparent;
+  display: flex;
+  margin-left: 12px; 
+}
+
+.p-text-property span{
+  font-size: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  margin-right: 6px;
+  background: transparent;
+  font-family: "Teko", sans-serif;
+}
